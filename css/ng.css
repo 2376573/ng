@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.my-fs-10{
+    font-size: 4em !important;
+}
+
+td:hover{
+    cursor: pointer;
+    background-color: #e9ecef;
+}
