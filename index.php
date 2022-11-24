@@ -14,23 +14,27 @@
     <script src="js/ng.js?<?=rand()?>"></script>
     <div class="container">
         <div class="">
+            <!--만들기 버튼-->
             <button class="btn btn-primary form-control" onclick="start()">
                 만들기
-            </button>
+            </button> 
         </div>
         <div class="row">
+            <!--메시지 띄우는 곳-->
             <div  class="col-6 text-center bg-light msg">
                 메시지
             </div>
+            <!--타이머(count와 timer 모두) 띄우는 곳-->
             <div class="col-6 text-center bg-danger timerDiv">
                 타이머
             </div>
         </div>
+        <!--테이블이 생성되는 곳-->
         <div id="numberDiv">
 
         </div>
     </div>
-    <!-- Modal -->
+    <!-- 게임이 종료되면 나오는 기록 및 축하 메시지 -->
     <div class="modal fade" id="finish" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
